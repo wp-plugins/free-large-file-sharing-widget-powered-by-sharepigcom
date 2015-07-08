@@ -1,0 +1,305 @@
+body{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    font-family:"Museo Sans W01 300", helvetica, arial;
+}
+
+#filemanager h2{
+    margin: 20px;
+    float: left;
+    color: #9E9E9E;
+}
+#dropzone, .dropzone {
+    position:relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+#toolBar {
+    width:100%;
+    position:relative;
+    background:#eee;
+    float:left;
+    box-shadow:0px 0px 5px #ccc;
+    top:0px;
+    left:0px;
+    z-index:100;
+    margin:0px;
+    padding:10px 0px 10px 0px;
+}
+#toolBar #navigation{
+    float:left;
+    position:relative;
+    width:100%;
+}
+#toolBar #navigation ul li ul.account,
+#toolBar #navigation ul li ul.config,
+#toolBar #navigation ul li ul.password,
+#toolBar #navigation ul li ul.notification{
+    left:0px;
+
+}
+#toolBar #navigation ul li ul.social, #toolBar #navigation ul li ul.shareit, #toolBar #navigation ul li ul.downloads{
+    left:-335px;
+}
+#toolBar #navigation ul li ul h2{
+    color: #8F8F8F;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#toolBar #navigation ul li ul li{
+    float: left;
+    width: 86%;
+    margin: 0px 2px 0px 20px;
+    padding: 10px 0px 10px 10px;
+    border-top: 1px solid #E6E6E6;
+    color: #707070;
+
+}
+#toolBar #navigation ul li ul li:last-child{
+    margin-bottom:30px;
+}
+#toolBar #navigation ul li ul {
+    padding:10px 0px 10px 0px;
+    top: 0px;
+    background: #fff;
+    float: left;
+    width: 375px;
+    position: absolute;
+    margin-top: 51px;
+    box-shadow: 0px 0px 10px #ccc;
+    border: 1px solid #cecece;
+    display:none;
+}
+#toolBar #navigation ul {
+    list-style: none;
+    list-style-type: none;
+    float:left;
+    position:relative;
+    width:100%;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+#toolBar #navigation ul li.shareURL select{
+    width: 100%;
+    font-size: 16px;
+    border: 0px;
+    padding: 5px;
+    color: #4e4e4e;
+    margin-top: 2px;
+}
+#toolBar #navigation ul li.shareURL .col-md-2{
+    font-size: 16px;
+    margin-top: 6px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px;
+}
+#toolBar #navigation ul li.shareURL{
+    margin-left:20px;
+    font-size:17px;
+}
+#toolBar #navigation ul li ul li:hover{
+    background: #94A2C1;
+    color: #fff;
+}
+#toolBar #navigation ul li{
+    float:left;
+    margin:0px;
+    font-family: "Museo Sans W01 300", helvetica, arial;
+    margin-left:15px;
+    list-style: none;
+    list-style-type: none;
+    position: relative;
+    cursor:pointer;
+}
+#toolBar #navigation ul li.download{
+    position:absolute;
+    right:120px;
+}
+#toolBar #navigation ul li.share{
+    position:absolute;
+    right:65px;
+}
+#toolBar #navigation ul li.social{
+    position:absolute;
+    right:10px;
+}
+#toolBar #navigation ul li img{
+    float:left;
+    opacity: 0.5;
+    width:40px;
+}
+#firstTimer{
+    position:absolute;
+    left:0%;
+    width:97%;
+    top:-2%;
+    opacity: 0.8;
+    background:#333;
+    border-radius:5px;
+    padding:20px;
+    z-index: 100;
+}
+#firstTimer h2, #firstTimer p{
+    color:#fff;
+    font-family: "Museo Sans W01 300", helvetica, arial;
+}
+.dz-filename{
+
+    float:left;
+}
+#loading{
+    position: absolute;
+    top: 20%;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+width:100%;
+    text-align: center;
+    z-index: 101;
+}
+#loading h2{
+    color:#6facd5;
+    font-family: "Museo Sans W01 300", helvetica, arial;
+    margin-top:40px;
+}
+#loading img{
+    margin: 0 auto;
+
+    margin-top: 60px;
+}
+#filemanager{
+
+}
+#dropzone{
+    position:relative;
+}
+.dz-default h2{
+    margin-top: -40px;
+    text-align: center;
+    color: red;
+    opacity: 0.6;
+    font-family: "Museo Sans W01 300", helvetica, arial;
+}
+.dz-filename a{
+    cursor:pointer!important;
+    font-family: "Museo Sans W01 300", helvetica, arial;
+    color:#155FA1;
+    text-decoration: none;
+}
+.dz-details{
+    margin-bottom:7px!important;
+}
+.dropzone .dz-preview.dz-image-preview:hover {
+    background: #a4ff79;
+    cursor:pointer;
+}
+.overlay-bg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000; /* high z-index */
+    background: #000; /* fallback */
+    background: rgba(0,0,0,0.75);
+}
+.register{
+    height:508px!important;
+}
+.dz-filename{;
+}
+.error{
+    display:none;
+    width:100%;
+    background: #f55b5e;
+    color:#ffffff;
+    border:1px solid #f52a2f;
+    float: left;
+    margin-bottom: 10px;
+}
+.login input, .register input{
+    float:left;
+    clar:both;
+    width:95%;
+    padding: 5px;
+    border: 1px solid #c8c8c8;
+    margin: 5px 0px 20px 0px;
+    height: 41px;
+    border-radius: 5px;
+}
+.login label, .register label{
+    color: #848484;
+    font-size:24px;
+}
+.login .loginsubmit{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+
+}
+.yourDetails, .membership, .settings{
+    width:50%!important;
+}
+.overlay-bg .login{
+    height:475px!important;
+}
+.overlay-content {
+    background: #fff;
+    padding: 1%;
+    width: 30%;
+    position: relative;
+    top: 15%;
+    left: 25%;
+    margin: 0 0 0 0; /* add negative left margin for half the width to center the div */
+    cursor: default;
+    border-radius: 4px;
+    height:400px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+}
+.login h2{
+    color:#6D6A6A;
+}
+.close-btn {
+    cursor: pointer;
+    position:absolute;
+    top:-5px;
+    right:-5px;
+    border: 0px;
+    font-size: 11px;
+    padding: 1% 2%;
+    border-radius: 50px;
+    box-shadow: 0 0 4px #333;
+}
+.close-btn:hover {
+    background: #05abe0;
+}
+.filenameimg{
+    position: absolute;
+    bottom: 14px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    left: 27px;
+    z-index: 2;
+}
+.overlay-bg .login, .overlay-bg .register{
+    display:none;
+}
+.dropzone .dz-preview .dz-details, .dropzone-previews .dz-preview .dz-details{
+    background:none;
+}
+/* media query for most mobile devices */
+@media only screen and (min-width: 0px) and (max-width: 480px){
+
+    .overlay-content {
+        width: 96%;
+        margin: 0 2%;
+        left: 0;
+    }
+}
