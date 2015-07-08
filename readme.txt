@@ -12,7 +12,8 @@ Widget to allow users to upload any file size or type for free, files are stored
 
 == Description ==
 
-Widget to allow users to upload any file size or type for free, files are stored at Sharepig.com and easily be access by navigating to your uniquely assigned Dashboard ID.
+File sharing Widget to allow users to upload any file size or type for free, files are stored at Sharepig.com and easily be access by navigating to your uniquely assigned Dashboard ID.
+Use shortcode [sharepig-file-upload] in a post/page or widget to enable file sharing.
 
 
 == Installation ==
@@ -38,6 +39,9 @@ Sign up for a free account and you can then easily select the files you wish to 
 
 == Screenshots ==
 
+sharepig-wp-widget.jpg
+sharepig-wp-settings.jpg
+sharepig-dashboard.jpg
 
 == Changelog ==
 
